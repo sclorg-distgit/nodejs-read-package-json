@@ -3,7 +3,7 @@
 %{?nodejs_find_provides_and_requires}
 
 Name:           %{?scl_prefix}nodejs-read-package-json
-Version:        1.2.7
+Version:        2.0.2
 Release:        1%{?dist}
 Summary:        npm's package.json parser
 
@@ -47,6 +47,9 @@ rm -rf %buildroot
 %doc LICENSE README.md
 
 %changelog
+* Mon Nov 30 2015 Tomas Hrcka <thrcka@redhat.com> - 2.0.2-1
+- New upstream release
+
 * Fri Jan 09 2015 Tomas Hrcka <thrcka@redhat.com> - 1.2.7-2
 - New upstream release 1.2.7
 
